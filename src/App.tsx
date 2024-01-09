@@ -1,12 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Number from './components/number/number'
 import './App.css'
 
 function App() {
   
   return (
-    <></>
+    <>
+      <Number number={5} />
+      <Number number={5} />
+      <Number number={5} />
+      <Number number={5} />
+      <Number number={5} />
+    </>
   )
 }
 
