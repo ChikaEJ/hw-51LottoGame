@@ -1,0 +1,10 @@
+.number {
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    font-size: 35px;
+}
