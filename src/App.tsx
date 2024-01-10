@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import Number from './components/number/number'
 import './App.css'
+import ShowNumbers from './containers/showNumbers/showNumbers'
 
 function App() {
   
   return (
     <>
-      <Number number={5} />
-      <Number number={5} />
-      <Number number={5} />
-      <Number number={5} />
-      <Number number={5} />
+      <ShowNumbers />
     </>
   )
 }
