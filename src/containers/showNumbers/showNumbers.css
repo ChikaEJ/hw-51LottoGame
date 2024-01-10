@@ -1,0 +1,13 @@
+.showNumbers {
+    display: flex;
+    gap: 5%;
+    width: 650px;
+    margin-top: 5%;
+    
+}
+.lotto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
